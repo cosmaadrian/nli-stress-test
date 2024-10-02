@@ -8,13 +8,19 @@
 
 <div align="center">
   
-[📘 Abstract](#intro) |
+[📘 Abstract](#intro)|
+[⚒️ Usage](#usage)|
 [📖 Citation](#citation)|
 [📝 License](#license)
 </div>
 
 ## <a name="intro"></a> 📘 Abstract
 _Natural Language Inference (NLI) evaluation is crucial for assessing language understanding models; however, popular datasets suffer from systematic spurious correlations that artificially inflate actual model performance. To address this, we propose a method for the automated creation of a challenging test set without relying on the manual construction of artificial and unrealistic examples. We categorize the test set of popular NLI datasets into three difficulty levels by leveraging methods that exploit training dynamics. This categorization significantly reduces spurious correlation measures, with examples labeled as having the highest difficulty showing markedly decreased performance and encompassing more realistic and diverse linguistic phenomena. When our characterization method is applied to the training set, models trained with only a fraction of the data achieve comparable performance to those trained on the full dataset, surpassing other dataset characterization techniques. Our research addresses limitations in NLI dataset construction, providing a more authentic evaluation of model performance with implications for diverse NLU applications._
+
+## <a name="usage"></a> ⚒️ Usage
+```
+TBD
+```
 
 ## <a name="citation"></a> 📖 Citation
 If you found our work useful, please cite our paper:
