@@ -9,7 +9,8 @@
 <div align="center">
   
 [📘 Abstract](#intro) |
-[📖 Citation](#citation)
+[📖 Citation](#citation)|
+[📝 License](#license)
 </div>
 
 ## <a name="intro"></a> 📘 Abstract
@@ -21,3 +22,7 @@ If you found our work useful, please cite our paper:
 ```
 TBD
 ```
+
+## <a name="license"></a> 📝 License
+
+This work is protected by [Attribution-NonCommercial 4.0 International](LICENSE)
