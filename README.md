@@ -1,5 +1,5 @@
 <h1 align="center"><span style="font-weight:normal">How Hard is this Test Set? NLI Characterization by Exploiting Training Dynamics</h1>
-<h2 align="center"> Accepted at The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024).</h2>
+<h2 align="center"> Accepted at "The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024)"</h2>
 
 <div align="center">
 
