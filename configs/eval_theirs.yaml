@@ -1,0 +1,5 @@
+evaluators:
+  - name: classification-stress
+    args:
+      dataset: stress-test
+      dataset_name: stress-test

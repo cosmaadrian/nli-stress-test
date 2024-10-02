@@ -1,0 +1,17 @@
+$extends$: configs/base_config.yaml
+
+evaluators:
+  - name: classification
+    args:
+      dataset: nli
+      dataset_name: snli
+
+dataset: our_nli
+dataset_name: snli
+
+hardness_key: hardness:gaussian_mixture
+
+hardness:
+  - easy
+  - ambigous
+  - hard

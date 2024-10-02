@@ -1,0 +1,10 @@
+evaluators:
+  - name: classification-our-stress
+    args:
+      dataset: our-stress-test
+      dataset_name: snli
+
+  - name: classification-our-stress
+    args:
+      dataset: our-stress-test
+      dataset_name: multi_nli

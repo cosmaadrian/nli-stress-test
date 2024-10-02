@@ -1,0 +1,54 @@
+trainer: auto
+evaluators:
+  - name: classification
+    args:
+      dataset: nli
+      # dataset_name: pietrolesci/nli_fever
+
+batch_size: 512
+accumulation_steps: 1
+
+do_sample: 0
+sample_percent: 0.3
+
+anli_split: r1
+
+epochs: 300
+eval_every: 1
+eval_every_step: 200
+
+warmup_percent: 0.2
+max_length: 256
+log_every: 5
+unfreeze_after: 10
+use_hypo: 0
+
+heads:
+  - kind: classification
+    name: nli
+    args:
+      num_classes: 3
+
+losses:
+  - kind: xe
+    name: nli
+    target_head: nli
+    args:
+      num_classes: 3
+
+characterization: ''
+save_characterization: 0
+target_split: training
+
+model_checkpoint:
+  monitor_quantity: ClassificationEvaluator_acc
+  direction: up
+
+dataset: nli
+dataset_name: snli
+
+model: transformer
+model_name: roberta-base
+
+model_args:
+  embedding_size: 768
