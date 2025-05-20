@@ -26,7 +26,24 @@ TBD
 If you found our work useful, please cite our paper:
 
 ```
-TBD
+@inproceedings{cosma2024hard,
+    title = "How Hard is this Test Set? {NLI} Characterization by Exploiting Training Dynamics",
+    author = "Cosma, Adrian  and
+      Ruseti, Stefan  and
+      Dascalu, Mihai  and
+      Caragea, Cornelia",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.175/",
+    doi = "10.18653/v1/2024.emnlp-main.175",
+    pages = "2990--3001"
+}
 ```
 
 ## <a name="license"></a> 📝 License
